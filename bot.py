@@ -30,9 +30,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name=SESSION,
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id=16635317,
+            api_hash=d3200b2d6eb7cda691523c78fec27f12,
+            bot_token=5631198266:AAFwHXr_66ZTHiKW6ht_xMIO2oza1O_2EnE,
             workers=50,
             plugins={"root": "CYNITE"},
             sleep_threshold=5,
